@@ -1,0 +1,3 @@
+class Tc < ApplicationRecord
+	
+end

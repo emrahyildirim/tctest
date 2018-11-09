@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Tc:</strong>
+  <%= @tc.tc_id %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tc.name %>
+</p>
+
+<p>
+  <strong>Surname:</strong>
+  <%= @tc.surname %>
+</p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @tc.year %>
+</p>
+
+<%= link_to 'Edit', edit_tc_path(@tc) %> |
+<%= link_to 'Back', tcs_path %>
